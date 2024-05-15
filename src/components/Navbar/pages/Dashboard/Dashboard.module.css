@@ -1,0 +1,19 @@
+/* dashboard.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the container height to full viewport height */
+}
+
+.content {
+  text-align: center; /* Center align the content */
+}
+
+/* In your LeadGrid.css file or equivalent */
+.LeadGrid {
+  width: auto;
+  border: 1px solid #ccc; /* Add a border to create a frame */
+  padding: 20px; /* Add padding to create space between the content and the frame */
+}

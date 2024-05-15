@@ -1,0 +1,31 @@
+/* actiontoggle.module.css */
+
+.icon {
+  width: rem(22px);
+  height: rem(22px);
+}
+
+/* Adjust the position of the toggle button */
+.container {
+  position: fixed; /* Position the button relative to the viewport */
+  bottom: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  z-index: 9999; /* Ensure the button appears above other content */
+}
+
+/* Styles for light and dark modes */
+.light .sun {
+  display: block; /* Display the sun image in light mode */
+}
+
+.light .moon {
+  display: none; /* Hide the moon image in light mode */
+}
+
+.dark .sun {
+  display: none; /* Hide the sun image in dark mode */
+}
+
+.dark .moon {
+  display: block; /* Display the moon image in dark mode */
+}

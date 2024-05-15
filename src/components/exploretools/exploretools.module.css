@@ -1,0 +1,47 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: bold;
+  color: #1098AD;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 25px;
+  color: #C3FAE8;
+}
+
+.toolCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3cm; /* Add margin between ToolCardWrapper and DemoImage */
+}
+
+.toolCardRow {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Adjust the width of the row to fit the cards */
+  margin-bottom: 1.5cm; /* Adjust margin between rows */
+}
+
+.toolCard {
+  width: calc(25% - 1.5cm); /* Adjust card width to occupy 25% of the row width */
+  margin-right: 1.5cm; /* Adjust margin between cards */
+}
+
+.toolCard:last-child {
+  margin-right: 0; /* Remove right margin from the last card in each row */
+}

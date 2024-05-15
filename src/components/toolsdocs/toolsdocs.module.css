@@ -1,0 +1,40 @@
+
+
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #1098AD;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .testButton {
+    background-color: #1098AD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .testButton:hover {
+    background-color: #0a7496;
+  }
+  .HeaderMegaMenu {
+    margin-bottom: 5px; /* Adjust this value as needed */
+  }
+  
